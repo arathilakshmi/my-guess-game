@@ -1,6 +1,6 @@
 README.md:
 	touch README.md
-	echo "#Project : Guessing Game " >> README.md
+	echo "# Project : Guessing Game " >> README.md
 	echo "" >> README.md
 	echo "" >> README.md
 	echo "This **file** was created by *make* on $$(date)" >> README.md
