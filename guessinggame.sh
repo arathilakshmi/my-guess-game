@@ -5,7 +5,7 @@
 # Function used to validate the user's guess - prompts the user to guess again if the guess is wrong or invalid , and congratulates the user if the guess is right.
 function guess_the_num {
 	usr_guess=$@
-	num_of_files=$(find . -type f | wc -l)
+	num_of_files=$(ls | wc -l)
 	val_flg=1
 	while [[ val_flg -eq 1 ]]
 	do
